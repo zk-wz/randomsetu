@@ -30,7 +30,7 @@ python random setu-from internet.py
 
 默认触发关键字为“色图”，你可以通过修改`message.asDisplay().startswith("")`以修改关键字
 
-默认图库来自本仓库的piccache，你可以通过修改`Image.fromNetworkAddress(）`的值来修改图库
+默认图库来自本仓库的piccache(图片太se可能有一半qq都发不出来)，你可以通过修改`Image.fromNetworkAddress(）`的值来修改图库
 
 ### 本地图片脚本
 

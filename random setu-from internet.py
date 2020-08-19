@@ -23,7 +23,7 @@ app = GraiaMiraiApplication(
 async def group_message_handler(app: GraiaMiraiApplication, message: MessageChain, group: Group):
     if message.asDisplay().startswith("色图"):
         await app.sendGroupMessage(group, MessageChain.create([
-            await Image.fromNetworkAddress('https://cdn.jsdelivr.net/gh/zk-wz/randomsetu/piccache/  ('+str(random.randrange(1,281))+').jpg')
+            await Image.fromNetworkAddress('https://cdn.jsdelivr.net/gh/zk-wz/randomsetu/piccache/  ('+str(random.randrange(1,302))+').jpg')
         ]))
 
 
